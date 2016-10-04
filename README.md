@@ -9,7 +9,7 @@ The official information about the course can be found here:
 https://ramy15.wmi.amu.edu.pl/ (unfortunatelly no direct link available).
 
 
-## Praca z repozytorium
+## Praca na laboratorium
 
 ### Inicjalizacja repozytorium
 
@@ -29,6 +29,12 @@ Dodanie repozytorium _matki_:
 
     git remote add mother https://github.com/amuumz/umz2016
 
+### IPython Notebook
+
+Uruchomienie Jupytera z poziomu wiersza linii poleceń:
+
+    jupyter notebook
+
 ### Wysyłanie rozwiązań
 
     git add labs/01/lab01-numpy-zadania.ipynb
@@ -39,5 +45,6 @@ Dodanie repozytorium _matki_:
 
 Na początku każdych następnych ćwiczeń należy pobrać nowe notatniki:
 
-    git pull  mother master
+    git pull mother master
+
 
