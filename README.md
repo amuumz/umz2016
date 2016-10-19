@@ -47,4 +47,13 @@ Na początku każdych następnych ćwiczeń należy pobrać nowe notatniki:
 
     git pull mother master
 
+### Bugi
 
+Niektóre wykłady będą zawierać komórki z kontrolkami `ipywidgets` wymagającymi
+wsparcia Javascript. Na komputerach w laboratorium można napotkać na komunikat
+rozpoczynający się od _Widget Javascript not detected ..._. Rozwiązaniem jest
+wpisanie w wierszu poleceń:
+
+    jupyter nbextensions enable --py widgetsnbextension
+
+Czyli polecenie z komunikatu bez `--sys-prefix`.
